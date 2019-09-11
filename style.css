@@ -1,3 +1,7 @@
+.header {
+    padding: 8px 30px 0;
+}
+
 ul .nav {
     list-style-type: none;
     margin: 10px 8px;
@@ -88,7 +92,7 @@ li .nav {
 
 .main {
     text-align: center;
-    padding-top: 185px;
+    padding-top: 190px;
 }
 
 .searchbox {
@@ -125,15 +129,15 @@ li .nav {
     border-top-width:1px;
     box-shadow:;
     color:rgb(34, 34, 34);
-    display:flex;
+    display: inline-block;
     font-family:arial, sans-serif;
     font-size:13px;
     height:44px;
     margin-bottom:0px;
-    margin-left:30%;
+    margin-left:0%;
     margin-right:0px;
     margin-top:0px;
-    width:40%;
+    width:582px;
     z-index:auto;
 }
 
@@ -150,7 +154,7 @@ li .nav {
     padding-left:14px;
     padding-right:14px;
     padding-top:5px;
-    width:100%;
+    width:95%;
 }
 
 .glass {
@@ -342,10 +346,10 @@ li .nav {
     height:36px;
     letter-spacing:normal;
     line-height:27px;
-    margin-bottom:11px;
+    margin-bottom:20px;
     margin-left:4px;
     margin-right:4px;
-    margin-top:11px;
+    margin-top:30px;
     min-width:54px;
     padding-bottom:0px;
     padding-left:16px;
@@ -379,6 +383,9 @@ li .nav {
 }
 
 .fbar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.054);
     color:rgb(100,100,100);
     display:block;
@@ -388,8 +395,6 @@ li .nav {
     line-height:40px;
     margin-top: 60px;
     visibility:visible;
-    padding-bottom: 10px;
-
 }
 
 .fbar p{
@@ -425,19 +430,20 @@ li .nav {
     margin: 0 0px;
     float: right;
     display: block;
+    padding-right: 20px;
 
 }
 
 ul .foot {
     list-style-type: none;
-    margin: 0 10px 8px;
+    margin: 0 10px 0px;
     float: right;
 
 }
 
 li .foot {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     font-size: 14px;
 }
 
