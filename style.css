@@ -1,5 +1,5 @@
 .header {
-    padding: 8px 30px 0;
+    padding: 6px 25px 0;
 }
 
 ul .nav {
@@ -148,6 +148,11 @@ li .nav {
 }
 
 .searchboxinner {
+    border-color: rgba(223, 225, 229, 0);
+    border-bottom-left-radius:24px;
+    border-bottom-right-radius:24px;
+    border-top-left-radius:24px;
+    border-top-right-radius:24px;
     color:rgb(34, 34, 34);
     display:flex;
     flex-basis:0%;
@@ -164,6 +169,7 @@ li .nav {
 }
 
 .glass {
+    border-color: rgba(223, 225, 229, 0);
     align-items:center;
     color:rgb(34, 34, 34);
     display:flex;
@@ -259,7 +265,6 @@ li .nav {
     -webkit-appearance:none;
     -webkit-rtl-ordering:logical;
     -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
-    -webkit-border-image:none;
 }
 
 .inputdiv {
@@ -401,6 +406,9 @@ li .nav {
     line-height:40px;
     margin-top: 60px;
     visibility:visible;
+    border-top-style: solid;
+    border-top-width: 0.5px;
+    border-top-color: rgb(228, 228, 228);
 }
 
 .fbar p{
@@ -428,7 +436,7 @@ li .nav {
     float: left;
     display: block;
     margin-block-start: 0;
-    padding-inline-start: 20px;
+    padding-inline-start: 3px;
 }
 
 .footright {
@@ -442,7 +450,7 @@ li .nav {
 
 ul .foot {
     list-style-type: none;
-    margin: 0 12px 0px;
+    margin: 0 0 0 27px;
     float: right;
 
 }
@@ -462,4 +470,20 @@ li .foot {
 
 .foot :hover {
     text-decoration: underline;
+}
+
+.shadow :hover,
+.shadow :focus{
+    border-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    -moz-box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.noshadow :hover,
+.noshadow :focus{
+    border-color: rgba(223, 225, 229, 0);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(255, 255, 255, 0);
+    -moz-box-shadow: 0px 1px 4px 0px rgba(255, 255, 255, 0);
+    box-shadow: 0px 1px 4px 0px rgba(255, 255, 255, 0);
 }
