@@ -436,7 +436,7 @@ li .nav {
 
 ul .foot {
     list-style-type: none;
-    margin: 0 10px 0px;
+    margin: 0 12px 0px;
     float: right;
 
 }
@@ -444,12 +444,12 @@ ul .foot {
 li .foot {
     display: block;
     margin-bottom: 0px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .foot :link,
 .foot :visited {
     text-decoration: none;
     color:rgba(100,100,100); 
-    font-size: 14px;
+    font-size: 13px;
 }
